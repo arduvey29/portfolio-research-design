@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: auto; /* Lenis handles smooth scroll */
+  }
+
+  body {
+    background-color: #F2EDE4;
+    color: #14110C;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  ::selection {
+    background-color: #C8382A;
+    color: #F2EDE4;
+  }
+}
+
+@layer utilities {
+  .rule-draw {
+    transform-origin: left center;
+  }
+}
