@@ -67,7 +67,7 @@ export function Method() {
             <p className="font-baskerville text-[17px] text-ink-secondary leading-[1.8]">
               Most developers are handed a spec. I&apos;ve never worked that way. Every system
               I&apos;ve shipped started with{' '}
-              <Redacted>a specific moment of</Redacted> noticing — a workflow that was quietly
+              <Redacted>a specific moment of</Redacted> noticing - a workflow that was quietly
               broken, a tool that should have existed, a gap so obvious in hindsight that people
               assume someone else is already solving it.
             </p>
